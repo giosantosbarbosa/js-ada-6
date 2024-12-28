@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #170f48;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+}
+
+main > h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#tempo-info {
+   text-align: center;
+   margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tempo-info .tempo-dados {
+   font-size: 30px;
+   font-style: bold;
+   margin-bottom: 0.3rem;
+}
+
+
+#button-localization {
+    background-color: black;
+    color: #ffffff;
+    padding: 1rem;
+    cursor: pointer;
+    }
+
+#button-localization:hover {
+    background-color: #170f48;
+    color: rgb(255, 255, 255);
+    
+}
+
+main #search-form form {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+main #search-form input {
+    flex: 1;
+    border-radius: 5px;
+}
